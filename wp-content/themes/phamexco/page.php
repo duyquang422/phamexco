@@ -1,4 +1,4 @@
-<?php 
+<?php
 	get_header();
 	get_template_part('views/top' , 'header');
 	get_template_part('views/home' , 'header');
@@ -33,7 +33,7 @@
 				<div class="category">
 					<img src="<?php echo get_template_directory_uri() . '/images/icon3.png' ?>" alt="">
 					<span>Tất cả danh mục</span>
-				</div>	
+				</div>
 			 	<div class="cart" style="float: right">
 				 	<img src="<?php echo get_template_directory_uri() . '/images/giohang.png' ?>" alt="">
 				 	<span>Giỏ hàng</span>

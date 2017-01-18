@@ -147,7 +147,7 @@ ul{
 	margin-left: 10px;
 	text-align: center;
 	line-height: 26px;
-	color: #fff;	
+	color: #fff;
 }
 .product-border p{
 	text-align: center;
@@ -266,7 +266,7 @@ ul{
 	top: 35%;
     left: 20%;
     box-shadow: 1px 1px 1px 0px ;
-	
+
 }
 .icon-search{
     background: url(../images/search.png) no-repeat;
@@ -608,6 +608,147 @@ del .woocommerce-Price-currencySymbol{
 .header-right img:first-child{
     margin-bottom: 15px;
 }
+/*order*/
+.all_order{
+	margin-top:30px;
+}
+.breadcrumb_order2 img{
+	margin-top: -3px;
+	margin-left: -30px;
+}
+.breadcrumb_order li{
+	float:left;
+	list-style:none;
+}
+.breadcrumb_order li a span{
+	margin-left: 35px;
+	font-weight: bold;
+	top:8px;
+	color: #fff;
+	position:absolute;
+}
+.info_order p{
+	text-align:right;
+	color:#8e8e8e;
+	font-weight:500;
+}
+.info_order table{
+	width:100%;
+}
+.info_order thead td{
+	padding:12px;
+}
+.info_order tbody td{
+	padding:5px;
+}
+.info_order table td{
+	text-align:center;
+}
+.finish_table td{
+	padding:15px !important;
+}
+.total_money{
+	text-align:right !important;
+}
+.btn_edit_order{
+	background: #3EAA49;
+	color: #fff;
+	padding: 7px 30px;
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+}
+.contact_order{
+	margin-bottom:45px;
+}
+.contact_order h3{
+	font-weight:bold;
+	color:#4AAF55;
+	text-align:center;
+}
+.filed_order{
+	margin-bottom:20px;
+}
+.contact_order .filed_order img{
+	 position: absolute;
+	 width:30px;
+	 height:30px;
+	 margin-top: 3px;
+	margin-left: 5px;
+	z-index:9999;
+}
+.contact_order .filed_order span.require_field{
+	position:absolute;
+	color:#ff1f1f;
+	right: 0px;
+	    margin-top: -60px;
+}
+.contact_order .filed_order input,.contact_order .filed_order textarea{
+	 padding:18px;
+	 padding-left:40px;
+}
+.contact_order .filed_order textarea{
+	 padding-top:5px;
+	 height:165px;
+	 margin-bottom:10px;
+}
+.filed_order span.icon_people,.filed_order span.icon_phone{
+	color:#ff1f1f;
+	position:absolute;
+	right: 0px;
+}
+.filed_last{
+	text-align:right;
+}
+.filed_last span{
+	float: left;
+	color:#9d9898;
+	font-weight:500;
+}
+.filed_last i{
+	font-style:normal;
+	color:#ff1f1f
+}
+.filed_last .btn_order{
+	padding: 7px 40px;
+	border:none;
+	color:#fff;
+	font-weight:bold;
+	background:#3EAA49;
+}
+.qty{
+	display: inline;
+	width: 50px;
+	text-align: center;
+}
+.delete-product a{
+	margin-right: 20px;
+	color:#fb3f3f;
+}
+table a{
+	color:#333;
+}
+table a:hover{
+	text-decoration:none;
+}
+/*order success*/
+.order_success{
+	text-align:center;
+}
+.order_success h2{
+	font-size:35px;
+	color:#3EAA49;
+	font-weight:700;
+	text-transform:uppercase;
+}
+.order_success img{
+	margin-bottom:16px;
+}
+.order_success p{
+	font-size:19px;
+}
+
+
 
 
 @media (min-width: 1200px){

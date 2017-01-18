@@ -1,4 +1,4 @@
-<?php 
+<?php
     add_action('widgets_init' , 'theme_widget_init');
     function theme_widget_init(){
         register_sidebar();
@@ -54,4 +54,16 @@
 
         echo '<ul class="product-info">' . $trademark . $weight . $packing . $expiry . $madeIn . '</ul>';
     }, 35 );
- ?>
+
+    function kia_filter_billing_fields($fields){
+        unset( $fields["billing_country"] );
+        unset( $fields["billing_company"] );
+        unset( $fields["billing_address_1"] );
+       /* unset( $fields["billing_address_2"] );*/
+        unset( $fields["billing_city"] );
+        unset( $fields["billing_state"] );
+        unset( $fields["billing_postcode"] );
+        /*unset( $fields["billing_phone"] );*/
+        return $fields;
+    }
+    add_filter( 'woocommerce_billing_fields', 'kia_filter_billing_fields' );
